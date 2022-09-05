@@ -1,0 +1,9 @@
+.app{display: flex;flex-direction: column;}
+.topcontent{position: fixed;top:0;max-height: 1rem;z-index:9999;width:100%;}
+.maincontent{display: flex;flex-direction: row;}
+.sidenav{flex:2;font-size: 0.2rem;align-items: center;justify-content: center;}
+.sidenav >ul{width:100%;padding: 0;margin: 0;background-color:#ccc;}
+.sidenav >ul>li{list-style: none;padding: 0.2rem;margin: 0;text-align: center;}
+.sidenav >ul>li:hover{background-color: #aaa;}
+.sidenav >ul>li>a{text-decoration: none;color:#000;width:100%;display: inline-block;}
+.rightcontent{flex:8;}
